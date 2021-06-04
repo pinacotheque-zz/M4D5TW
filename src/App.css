@@ -43,6 +43,10 @@
   
 }
 
+.container-fluid {
+  background-color: #141414;
+  color: #ffff;
+}
 
 body, .navbar{
   background-color: #141414;
@@ -189,7 +193,8 @@ footer a{
   
 }
 
-#Footer {background-color: #141414;
+#Footer {
+  background-color: #141414;
   color:white;}
 
  .list {

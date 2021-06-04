@@ -1,5 +1,6 @@
 import { Component } from "react"
 import TilesList from './TilesList'
+import {Form, FormControl, Button} from 'react-bootstrap' 
 
 class Carousel extends Component {
 
@@ -34,12 +35,16 @@ class Carousel extends Component {
 
     render(){
         return(  
+        <>
+        
+
         <div className="py-3">  
             <h4>{this.props.title}</h4> 
             <div className="ms-slider ms-slider--enlarge">
                 <TilesList moviesToShow={this.state.movies} />
             </div>  
         </div>
+        </>
         )  
     }
 }
