@@ -37,6 +37,13 @@
   }
 }
 
+.navbar{
+  background-color: #141414;
+  color:white;
+  
+}
+
+
 body, .navbar{
   background-color: #141414;
   color:white;
@@ -177,6 +184,18 @@ footer a{
   color:  #636466;
   
 }
+ .list a:hover{
+  color:  #a2a4a8;
+  
+}
+
+#Footer {background-color: #141414;
+  color:white;}
+
+ .list {
+  list-style-type: none;
+ }
+
 footer a:hover{
   color:  #a2a4a8;
   
