@@ -5,7 +5,7 @@ const MyNav = (props) => (
 <Navbar.Brand href="#home">
         <img
           alt=""
-          src="/logo.svg"
+          src="../assets/netflix_logo.png"
           width="30"
           height="30"
           className="d-inline-block align-top"
@@ -20,13 +20,13 @@ const MyNav = (props) => (
           <Nav.Link href="#features">Movies</Nav.Link>
           <Nav.Link href="#features">Recently Added</Nav.Link>
           <Nav.Link href="#features">My List</Nav.Link>
+        </Nav>
 
           <form className="form-inline my-2 my-lg-0 ">
               <button className="btn btn-link" type="submit">🔍</button>
               <a class="btn btn-outline-light my-2 my-sm-0 ml-4" href="profile-page.html"  type="submit"> 👤 </a>
             </form>
 
-        </Nav>
       </Navbar.Collapse>
     </Navbar>
   );

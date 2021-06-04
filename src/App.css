@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,7 +35,7 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
 
 .navbar{
   background-color: #141414;
@@ -43,6 +43,10 @@
   
 }
 
+#Main-Parent {
+  background-color: #141414;
+  color:white;
+}
 
 body, .navbar{
   background-color: #141414;
@@ -179,24 +183,18 @@ li{
 svg:hover{
   fill:white;
 }
-footer a{
+
+.footer a{
   /* text-decoration: none;!important */
   color:  #636466;
   
 }
- .list a:hover{
-  color:  #a2a4a8;
-  
-}
 
-#Footer {background-color: #141414;
+.footer {
+  background-color: #141414;
   color:white;}
 
- .list {
-  list-style-type: none;
- }
-
-footer a:hover{
+.footer a:hover{
   color:  #a2a4a8;
   
 }

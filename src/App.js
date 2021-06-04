@@ -7,7 +7,7 @@ import Carousel from './components/Carousel';
 
 function App() {
   return (
-    <div>
+    <Container fluid id="MainParent">
       <MyNav />
       <Container fluid>
         <Carousel title="Harry Potter"/>   
@@ -15,7 +15,7 @@ function App() {
         <Carousel title="The Matrix"/>         
       </Container>
       <MyFooter/>
-    </div>
+    </Container>
   );
 }
 
