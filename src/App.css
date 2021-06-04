@@ -40,9 +40,7 @@
 body, .navbar{
   background-color: #141414;
   color:white;
-  
 }
-
 
 .navLogo {
   max-height: 5px;
@@ -164,7 +162,6 @@ body, .navbar{
   -webkit-transform: translate3d(125px, 0, 0);
   transform: translate3d(125px, 0, 0);
 }
-
 
 li{
   list-style-type: none;

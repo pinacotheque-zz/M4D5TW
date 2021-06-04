@@ -1,15 +1,15 @@
-
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Carousel from './components/Carousel'
-
+import { Container } from 'react-bootstrap';
+import Carousel from './components/Carousel';
 
 function App() {
   return (
-    <div>
-      <Carousel title="Trending"/>
-      
-    </div>
+    <Container fluid>
+      <Carousel title="Harry Potter"/>   
+      <Carousel title="Lord of the Rings"/>      
+      <Carousel title="The Matrix"/>         
+    </Container>
   );
 }
 
