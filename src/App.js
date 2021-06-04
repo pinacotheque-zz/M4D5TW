@@ -7,7 +7,7 @@ import Carousel from './components/Carousel';
 
 function App() {
   return (
-    <Container fluid id="MainParent">
+    <Container fluid className="MainParent">
       <MyNav />
       <Container fluid>
         <Carousel title="Harry Potter"/>   

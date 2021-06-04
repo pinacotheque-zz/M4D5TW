@@ -4,7 +4,7 @@ import {Container, Row, Col, Button } from 'react-bootstrap'
 class MyFooter extends Component {
     render() {
         return (            
-          <Container fluid className="footer mt-5">
+          <Container fluid className="footer pt-5">
               <Row>
                 <Col>
                   <ul>            
