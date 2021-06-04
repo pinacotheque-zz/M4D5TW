@@ -36,3 +36,30 @@
     transform: rotate(360deg);
   }
 }
+
+.navbar{
+  background-color: #141414;
+  color:white;
+  
+}
+
+ .list a{
+  /* text-decoration: none;!important */
+  color:  #636466;
+  
+}
+ .list a:hover{
+  color:  #a2a4a8;
+  
+}
+
+#Footer {background-color: #141414;
+  color:white;}
+
+ .list {
+  list-style-type: none;
+ }
+
+ .copyright{
+  color:#636466;
+}
